@@ -8,7 +8,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                         <li class="breadcrumb-item active">Dashboard v1</li>
                     </ol>
                 </div>
@@ -225,7 +225,7 @@ Count Dracula
 
                                     <li>
                                         <a href="#">
-                                            <img class="contacts-list-img" src="dist/img/user7-128x128.jpg"
+                                            <img class="contacts-list-img" src="{{asset('dist/img/user7-128x128.jpg')}}"
                                                  alt="User Avatar">
                                             <div class="contacts-list-info">
 <span class="contacts-list-name">
@@ -240,7 +240,7 @@ Sarah Doe
 
                                     <li>
                                         <a href="#">
-                                            <img class="contacts-list-img" src="dist/img/user3-128x128.jpg"
+                                            <img class="contacts-list-img" src="{{asset('dist/img/user3-128x128.jpg')}}"
                                                  alt="User Avatar">
                                             <div class="contacts-list-info">
 <span class="contacts-list-name">
@@ -255,7 +255,7 @@ Nadia Jolie
 
                                     <li>
                                         <a href="#">
-                                            <img class="contacts-list-img" src="dist/img/user5-128x128.jpg"
+                                            <img class="contacts-list-img" src="{{ asset('dist/img/user5-128x128.jpg') }}"
                                                  alt="User Avatar">
                                             <div class="contacts-list-info">
 <span class="contacts-list-name">
@@ -270,7 +270,7 @@ Nora S. Vans
 
                                     <li>
                                         <a href="#">
-                                            <img class="contacts-list-img" src="dist/img/user6-128x128.jpg"
+                                            <img class="contacts-list-img" src="{{asset('dist/img/user6-128x128.jpg')}}"
                                                  alt="User Avatar">
                                             <div class="contacts-list-info">
 <span class="contacts-list-name">
@@ -285,7 +285,7 @@ John K.
 
                                     <li>
                                         <a href="#">
-                                            <img class="contacts-list-img" src="dist/img/user8-128x128.jpg"
+                                            <img class="contacts-list-img" src="{{ asset('dist/img/user8-128x128.jpg') }}"
                                                  alt="User Avatar">
                                             <div class="contacts-list-info">
 <span class="contacts-list-name">

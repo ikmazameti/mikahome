@@ -14,5 +14,7 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .copy('node_modules/admin-lte/dist/img', 'public/dist/img')
+    // .copy('node_modules/admin-lte/plugins', 'public/plugins')
+    // .copy('node_modules/admin-lte/pages', 'public/pages')
 
     .sourceMaps();
